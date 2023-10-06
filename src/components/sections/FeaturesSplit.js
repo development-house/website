@@ -50,8 +50,8 @@ const FeaturesSplit = ({
   );
 
   const sectionHeader = {
-    title: 'Workflow that just works',
-    paragraph: 'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum — semper quis lectus nulla at volutpat diam ut venenatis.'
+    title: 'Pioneering Interactive Worlds',
+    paragraph: 'With cutting-edge technologies, we craft immersive environments, deliver engaging gameplay experiences, and offer endless possibilities for players to explore, compete, and connect.'
   };
 
   return (
@@ -67,13 +67,13 @@ const FeaturesSplit = ({
             <div className="split-item">
               <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
                 <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
-                  Lightning fast workflow
+                Innovation Meets Precision
                   </div>
                 <h3 className="mt-0 mb-12">
-                  Data-driven insights
+                Advanced Software Engineering
                   </h3>
                 <p className="m-0">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua — Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                Our team of expert engineers push the boundaries of technology to bring open-world gameplay to life. Through cutting-edge software engineering, we enable seamless gameplay, stunning graphics, and dynamic environments.
                   </p>
               </div>
               <div className={
@@ -83,7 +83,7 @@ const FeaturesSplit = ({
                 )}
                 data-reveal-container=".split-item">
                 <Image
-                  src={require('./../../assets/images/features-split-image-01.png')}
+                  src={require('./../../assets/images/tile_advanced_software_engine.png')}
                   alt="Features split 01"
                   width={528}
                   height={396} />
@@ -93,13 +93,13 @@ const FeaturesSplit = ({
             <div className="split-item">
               <div className="split-item-content center-content-mobile reveal-from-right" data-reveal-container=".split-item">
                 <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
-                  Lightning fast workflow
+                Unleash Immersive Experiences
                   </div>
                 <h3 className="mt-0 mb-12">
-                  Data-driven insights
+                Game Loop Design
                   </h3>
                 <p className="m-0">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua — Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                We unlock the power of engaging gameplay with our meticulous game loop design. We craft interactive worlds that captivate players, focusing on every detail of the gaming experience to ensure players stay immersed and excited.
                   </p>
               </div>
               <div className={
@@ -109,7 +109,7 @@ const FeaturesSplit = ({
                 )}
                 data-reveal-container=".split-item">
                 <Image
-                  src={require('./../../assets/images/features-split-image-02.png')}
+                  src={require('./../../assets/images/tile_work_of_creating_game.png')}
                   alt="Features split 02"
                   width={528}
                   height={396} />
@@ -119,13 +119,13 @@ const FeaturesSplit = ({
             <div className="split-item">
               <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
                 <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
-                  Lightning fast workflow
+                Scalable Foundations
                   </div>
                 <h3 className="mt-0 mb-12">
-                  Data-driven insights
+                DDD Microservice Architecture
                   </h3>
                 <p className="m-0">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua — Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                We harness the potential of Distributed Domain-Driven (DDD) Microservices. Our architecture empowers us to scale effortlessly, supporting massive player populations while maintaining flexibility and robustness.
                   </p>
               </div>
               <div className={
@@ -135,8 +135,34 @@ const FeaturesSplit = ({
                 )}
                 data-reveal-container=".split-item">
                 <Image
-                  src={require('./../../assets/images/features-split-image-03.png')}
+                  src={require('./../../assets/images/tile_ddd_microservices.png')}
                   alt="Features split 03"
+                  width={528}
+                  height={396} />
+              </div>
+            </div>
+
+            <div className="split-item">
+              <div className="split-item-content center-content-mobile reveal-from-right" data-reveal-container=".split-item">
+                <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
+                Protecting Your World
+                  </div>
+                <h3 className="mt-0 mb-12">
+                Industry Leading Security
+                  </h3>
+                <p className="m-0">
+                Security is paramount in the software industry. We take pride in our industry-leading security measures that safeguard player data, prevent cheating, and create a secure gaming environment, earning players' trust.
+                  </p>
+              </div>
+              <div className={
+                classNames(
+                  'split-item-image center-content-mobile reveal-from-bottom',
+                  imageFill && 'split-item-image-fill'
+                )}
+                data-reveal-container=".split-item">
+                <Image
+                  src={require('./../../assets/images/tile_industry_leading_security.png')}
+                  alt="Features split 02"
                   width={528}
                   height={396} />
               </div>

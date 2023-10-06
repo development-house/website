@@ -22,6 +22,9 @@ const Footer = ({
   ...props
 }) => {
 
+  let newDate = new Date()
+  let year = newDate.getFullYear();
+
   const classes = classNames(
     'site-footer center-content-mobile',
     topOuterDivider && 'has-top-divider',
@@ -45,7 +48,7 @@ const Footer = ({
           </div>
           <div className="footer-bottom space-between text-xxs invert-order-desktop">
             <FooterNav />
-            <div className="footer-copyright">Made by <a href="https://cruip.com">Cruip</a>. All right reserved</div>
+            <div className="footer-copyright">© {year} <a className='bottom-link' href="https://development.house">Development House Inc.</a> All right reserved.</div>
           </div>
         </div>
       </div>
