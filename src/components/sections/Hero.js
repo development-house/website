@@ -73,7 +73,7 @@ const Hero = ({
                     Get started
                     </Button> */}
                   <Button tag="a" color="dark" wideMobile href="https://github.com/development-house">
-                    View our Github
+                    Check out our Github
                   </Button>
                 </ButtonGroup>
               </div>
