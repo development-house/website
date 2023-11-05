@@ -3,6 +3,7 @@ import classNames from 'classnames';
 import { SectionProps } from '../../utils/SectionProps';
 import ButtonGroup from '../elements/ButtonGroup';
 import Button from '../elements/Button';
+import Title from '../layout/partials/Title';
 // import Image from '../elements/Image';
 // import Modal from '../elements/Modal';
 
@@ -60,14 +61,14 @@ const Hero = ({
       <div className="container-sm">
         <div className={innerClasses}>
           <div className="hero-content">
-            <h1 className="mt-0 mb-16 reveal-from-bottom" data-reveal-delay="200">
-               <span className="text-color-primary">Development House</span>
+            <h1 className="mt-0 mb-32 reveal-from-bottom" data-reveal-delay="200">
+              <Title/>
             </h1>
-            <div className="container-xs">
-              <p className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="400">
+            <div className="mt-32 container-xs">
+              {/* <p className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="400">
                 game technology company
-              </p>
-              <div className="reveal-from-bottom" data-reveal-delay="600">
+              </p> */}
+              <div className="mt-32 reveal-from-bottom" data-reveal-delay="600">
                 <ButtonGroup>
                   {/* <Button tag="a" color="primary" wideMobile href="#">
                     Get started

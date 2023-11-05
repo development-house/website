@@ -14,9 +14,16 @@
 
 	.brand {
 		margin-right: $header-nav--padding-h;
-	}	
-}
+	}
+	.title-brand {
+		margin-bottom: 50px;
+	}
 
+}
+.norms {
+	text-align: center;
+	margin-bottom: 60px;
+}
 .site-header-inner {
     display: flex;
     justify-content: space-between;
