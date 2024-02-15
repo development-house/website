@@ -1,8 +1,6 @@
 import React from 'react';
 import classNames from 'classnames';
 import { SectionSplitProps } from '../../utils/SectionProps';
-import SectionHeader from './partials/SectionHeader';
-import Image from '../elements/Image';
 
 const propTypes = {
   ...SectionSplitProps.types
@@ -48,11 +46,6 @@ const FeaturesSplit = ({
     invertDesktop && 'invert-desktop',
     alignTop && 'align-top'
   );
-
-  const sectionHeader = {
-    title: 'Pioneering Interactive',
-    paragraph: 'We acquire, craft, and incubate immersive technologies, deliver engaging experiences, and offer endless possibilities for people to connect with the world around them.'
-  };
 
   return (
     <section
