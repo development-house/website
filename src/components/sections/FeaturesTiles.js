@@ -42,8 +42,8 @@ const FeaturesTiles = ({
   );
 
   const sectionHeader = {
-    title: 'Working at Development House:',
-    paragraph: 'We cultivate an engineering culture that fosters creativity, collaboration, and continuous improvement. Our developers, designers, and experts work together to deliver excellence in technology products. '
+    title: 'Development House Inc.',
+    paragraph: 'We are a Wyoming Profit Corporation currently invested in tech holdings and software development.'
   };
 
   return (
@@ -54,7 +54,7 @@ const FeaturesTiles = ({
       <div className="container">
         <div className={innerClasses}>
           <SectionHeader data={sectionHeader} className="" />
-          <h2 className='mt-0 norms'>Engineering at Development House</h2>
+          {/* <h2 className='mt-0 norms'>Engineering at Development House</h2> */}
           <div className={tilesClasses}>
             
             {/* <div className="tiles-item reveal-from-bottom">
@@ -103,7 +103,7 @@ const FeaturesTiles = ({
               </div>
             </div> */}
 
-<div className="tiles-item reveal-from-bottom" data-reveal-delay="400">
+            {/* <div className="tiles-item reveal-from-bottom" data-reveal-delay="400">
               <div className="tiles-item-inner">
                 <div className="features-tiles-item-header">
                   <div className="features-tiles-item-image mb-16">
@@ -193,7 +193,7 @@ const FeaturesTiles = ({
                     </p>
                 </div>
               </div>
-            </div>
+            </div> */}
 
 
 

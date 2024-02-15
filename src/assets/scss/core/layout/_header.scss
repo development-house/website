@@ -1,4 +1,5 @@
 .site-header {
+	margin-top:1rem;
 	position: absolute !important;
 	top: 0;
 	width: 100%;
@@ -8,7 +9,7 @@
 	+ .site-content {
 
 		.section:first-of-type {
-			padding-top: $header-height__mobile;
+			padding-top: $header-padding_center;
 		}
 	}
 

@@ -65,9 +65,9 @@ const Hero = ({
               <Title/>
             </h1>
             <div className="mt-32 container-xs">
-              {/* <p className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="400">
-                game technology company
-              </p> */}
+              <p className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="400">
+                tech holdings & software development
+              </p>
               <div className="mt-32 reveal-from-bottom" data-reveal-delay="600">
                 <ButtonGroup>
                   {/* <Button tag="a" color="primary" wideMobile href="#">
