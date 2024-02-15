@@ -1,30 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.ff3df1b3.chunk.css",
-    "main.js": "/static/js/main.b089d6fc.chunk.js",
-    "main.js.map": "/static/js/main.b089d6fc.chunk.js.map",
+    "main.css": "/static/css/main.f1ccd03a.chunk.css",
+    "main.js": "/static/js/main.ce9ca411.chunk.js",
+    "main.js.map": "/static/js/main.ce9ca411.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.1ddc2d8d.js",
     "runtime-main.js.map": "/static/js/runtime-main.1ddc2d8d.js.map",
-    "static/js/2.a4d5957d.chunk.js": "/static/js/2.a4d5957d.chunk.js",
-    "static/js/2.a4d5957d.chunk.js.map": "/static/js/2.a4d5957d.chunk.js.map",
+    "static/js/2.16297913.chunk.js": "/static/js/2.16297913.chunk.js",
+    "static/js/2.16297913.chunk.js.map": "/static/js/2.16297913.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.193ec4576edc48fa121958063d3963fe.js": "/precache-manifest.193ec4576edc48fa121958063d3963fe.js",
+    "precache-manifest.e5520ce9ba03e92f6dfb89dd9293cd9a.js": "/precache-manifest.e5520ce9ba03e92f6dfb89dd9293cd9a.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.ff3df1b3.chunk.css.map": "/static/css/main.ff3df1b3.chunk.css.map",
-    "static/js/2.a4d5957d.chunk.js.LICENSE.txt": "/static/js/2.a4d5957d.chunk.js.LICENSE.txt",
+    "static/css/main.f1ccd03a.chunk.css.map": "/static/css/main.f1ccd03a.chunk.css.map",
+    "static/js/2.16297913.chunk.js.LICENSE.txt": "/static/js/2.16297913.chunk.js.LICENSE.txt",
     "static/media/style.scss": "/static/media/illustration-section-02.c067a29a.svg",
-    "static/media/feature-tile-icon-03.svg": "/static/media/feature-tile-icon-03.8b7d0a8e.svg",
-    "static/media/feature-tile-icon-05.svg": "/static/media/feature-tile-icon-05.03320e76.svg",
-    "static/media/feature-tile-icon-06.svg": "/static/media/feature-tile-icon-06.31474140.svg",
-    "static/media/feature-tile-icon-07.svg": "/static/media/feature-tile-icon-07.f5a23f87.svg",
     "static/media/logo.svg": "/static/media/logo.92b3a359.svg",
-    "static/media/tile_advanced_software_engine.png": "/static/media/tile_advanced_software_engine.2e732f4c.png",
     "static/media/title-logo.svg": "/static/media/title-logo.34117c94.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.1ddc2d8d.js",
-    "static/js/2.a4d5957d.chunk.js",
-    "static/css/main.ff3df1b3.chunk.css",
-    "static/js/main.b089d6fc.chunk.js"
+    "static/js/2.16297913.chunk.js",
+    "static/css/main.f1ccd03a.chunk.css",
+    "static/js/main.ce9ca411.chunk.js"
   ]
 }
