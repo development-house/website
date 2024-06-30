@@ -1,8 +1,6 @@
 import React from 'react';
 import classNames from 'classnames';
 import { SectionProps } from '../../utils/SectionProps';
-import ButtonGroup from '../elements/ButtonGroup';
-import Button from '../elements/Button';
 import Title from '../layout/partials/Title';
 // import Image from '../elements/Image';
 // import Modal from '../elements/Modal';
