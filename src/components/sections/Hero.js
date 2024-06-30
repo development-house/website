@@ -66,18 +66,8 @@ const Hero = ({
             </h1>
             <div className="mt-32 container-xs">
               <p className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="400">
-                tech holdings & software development
+                Technology Holding Company
               </p>
-              <div className="mt-32 reveal-from-bottom" data-reveal-delay="600">
-                <ButtonGroup>
-                  {/* <Button tag="a" color="primary" wideMobile href="#">
-                    Get started
-                    </Button> */}
-                  <Button tag="a" color="dark" wideMobile href="https://github.com/development-house">
-                    Check out our Github
-                  </Button>
-                </ButtonGroup>
-              </div>
             </div>
           </div>
           {/* <div className="hero-figure reveal-from-bottom illustration-element-01" data-reveal-value="20px" data-reveal-delay="800">
