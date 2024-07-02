@@ -42,7 +42,7 @@ const FeaturesTiles = ({
 
   const sectionHeader = {
     title: 'Development House Inc.',
-    paragraph: 'We are a Wyoming Profit Corporation currently building financial-tech products for quantative trading and wealth management solutions.'
+    paragraph: 'We are a Wyoming Profit Corporation.'
   };
 
   return (
