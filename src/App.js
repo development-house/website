@@ -2,23 +2,18 @@ import React, { useRef, useEffect } from 'react';
 import { useLocation, Switch } from 'react-router-dom';
 import AppRoute from './utils/AppRoute';
 import ScrollReveal from './utils/ScrollReveal';
-import ReactGA from 'react-ga';
 
 // Layouts
 import LayoutDefault from './layouts/LayoutDefault';
 
 // Views 
 import Home from './views/Home';
-import Investors from "./views/Investors";
 import About from "./views/About";
-
-// Initialize Google Analytics
-ReactGA.initialize(process.env.REACT_APP_GA_CODE);
-
-const trackPage = page => {
-  ReactGA.set({ page });
-  ReactGA.pageview(page);
-};
+import Worldview from './views/Worldview';
+import Terms from './views/Terms';
+import Privacy from './views/Privacy';
+import Refunds from './views/Refunds';
+import Cancellation from './views/Cancellation';
 
 const App = () => {
 
@@ -29,7 +24,6 @@ const App = () => {
     const page = location.pathname;
     document.body.classList.add('is-loaded')
     childRef.current.init();
-    trackPage(page);
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [location]);
 
@@ -40,7 +34,11 @@ const App = () => {
         <Switch>
           <AppRoute exact path="/" component={Home} layout={LayoutDefault} />
           <AppRoute exact path="/about" component={About} layout={LayoutDefault} />
-          <AppRoute exact path="/investors" component={Investors} layout={LayoutDefault} />
+          <AppRoute exact path="/worldview" component={Worldview} layout={LayoutDefault} />
+          <AppRoute exact path="/terms" component={Terms} layout={LayoutDefault} />
+          <AppRoute exact path="/privacy" component={Privacy} layout={LayoutDefault} />
+          <AppRoute exact path="/refunds" component={Refunds} layout={LayoutDefault} />
+          <AppRoute exact path="/cancellation" component={Cancellation} layout={LayoutDefault} />
         </Switch>
       )} />
   );

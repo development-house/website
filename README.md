@@ -2,12 +2,21 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+### Prerequisites
+
+- Node.js 22 or newer
+- npm 10 or newer
+
+Use `.nvmrc` or `.node-version` to align your local runtime with CI and Netlify.
+
 ### Available Scripts
 
 In the project directory, you can run:
 
-#### `npm install`
-To install the dependencies package.
+#### `npm ci`
+Installs dependencies exactly from `package-lock.json`.
+
+Use `npm install` only when you need to update dependencies.
 
 #### `npm start`
 
@@ -71,9 +80,3 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 #### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
-
-### Google Analytics Setup
-
-This template uses the [React Google Analytics Module](https://github.com/react-ga/react-ga).
-
-In order to track visitors, you need to set an [environment variable](https://create-react-app.dev/docs/adding-custom-environment-variables/) called `REACT_APP_GA_CODE` storing your [GA Tracking ID](https://support.google.com/analytics/answer/7372977).

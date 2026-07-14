@@ -48,7 +48,13 @@ const Footer = ({
           </div>
           <div className="footer-bottom space-between text-xxs invert-order-desktop">
             <FooterNav />
-            <div className="footer-copyright">© {year} <a className='bottom-link' href="https://development.house">Development House Inc.</a> All right reserved.</div>
+            <div className="footer-copyright">
+              © {year} <a className='bottom-link' href="https://development.house">Development House Inc.</a> All right reserved.
+              <br />
+              Support: <a className='bottom-link' href="mailto:support@development.house">support@development.house</a>
+              <br />
+              Billing descriptor may appear as Development House Inc.
+            </div>
           </div>
         </div>
       </div>
