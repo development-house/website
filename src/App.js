@@ -8,7 +8,6 @@ import LayoutDefault from './layouts/LayoutDefault';
 
 // Views 
 import Home from './views/Home';
-import About from "./views/About";
 import Worldview from './views/Worldview';
 import Terms from './views/Terms';
 import Privacy from './views/Privacy';
@@ -21,7 +20,6 @@ const App = () => {
   let location = useLocation();
 
   useEffect(() => {
-    const page = location.pathname;
     document.body.classList.add('is-loaded')
     childRef.current.init();
     // eslint-disable-next-line react-hooks/exhaustive-deps
