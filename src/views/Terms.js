@@ -8,7 +8,6 @@ const Terms = () => {
       <GenericSection topDivider>
         <div className="container-xs">
           <h1 className="mt-0 mb-16">Terms of Service</h1>
-          <p className="m-0 mb-16">Effective date: 2026-07-14</p>
           <p className="m-0 mb-16">
             Development House Inc. operates software products including Worldview Trading for authorized users.
           </p>
@@ -22,7 +21,7 @@ const Terms = () => {
             The platform provides software tools and analytics only and does not guarantee outcomes or returns.
           </p>
           <p className="m-0">
-            Questions about these terms can be sent to <a href="mailto:support@development.house">support@development.house</a>.
+            Questions about these terms can be sent to <a style={{ color: '#717D86' }} href="mailto:support@development.house">support@development.house</a>.
           </p>
         </div>
       </GenericSection>

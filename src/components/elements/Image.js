@@ -31,6 +31,8 @@ const Image = ({
 
   const image = useRef(null);
 
+  const resolvedSrc = typeof src === 'string' ? src : (src && (src.default || src.src)) || '';
+
   useEffect(() => {
     handlePlaceholder(image.current);
   // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -67,7 +69,7 @@ const Image = ({
       {...props}
       ref={image}
       className={className}
-      src={src}
+      src={resolvedSrc}
       width={width}
       height={height}
       alt={alt}

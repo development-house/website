@@ -44,7 +44,6 @@ const Footer = ({
           )}>
           <div className="footer-top space-between text-xxs">
             <Logo />
-            <FooterSocial />
           </div>
           <div className="footer-bottom space-between text-xxs invert-order-desktop">
             <FooterNav />
@@ -53,7 +52,7 @@ const Footer = ({
               <br />
               Support: <a className='bottom-link' href="mailto:support@development.house">support@development.house</a>
               <br />
-              Billing descriptor may appear as Development House Inc.
+              Billing descriptor may appear as Development House
             </div>
           </div>
         </div>

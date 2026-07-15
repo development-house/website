@@ -10,11 +10,10 @@ const Worldview = () => {
         <div className="container-xs">
           <h1 className="mt-0 mb-16">Worldview Trading</h1>
           <p className="m-0 mb-16">
-            Worldview Trading is a product of Development House Inc., a software company developing quantitative trading and
-            AI-assisted financial analysis tools.
+            Worldview Trading is a product of Development House Inc.
           </p>
           <p className="m-0 mb-16">
-            The platform provides subscription-based access to trading software and may charge for metered AI usage consumed within
+            The platform provides subscription-based access to trading software and also provides metered AI usage consumed within
             the application.
           </p>
           <h2 className="mt-0 mb-16">Products and Services</h2>
@@ -29,10 +28,6 @@ const Worldview = () => {
           <p className="m-0 mb-16">
             Development House Inc. and Worldview Trading provide software tools and analytics for authorized users. The platform does
             not guarantee investment returns and does not provide investment management or financial advisory services.
-          </p>
-          <p className="m-0">
-            <Link to="/terms">Terms of Service</Link> | <Link to="/privacy">Privacy Policy</Link> |{' '}
-            <Link to="/refunds">Refund Policy</Link> | <Link to="/cancellation">Cancellation Policy</Link>
           </p>
         </div>
       </GenericSection>

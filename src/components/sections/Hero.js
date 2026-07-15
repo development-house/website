@@ -24,17 +24,6 @@ const Hero = ({
   ...props
 }) => {
 
-  // const [videoModalActive, setVideomodalactive] = useState(false);
-
-  // const openModal = (e) => {
-  //   e.preventDefault();
-  //   setVideomodalactive(true);
-  // }
-
-  // const closeModal = (e) => {
-  //   e.preventDefault();
-  //   setVideomodalactive(false);
-  // }   
 
   const outerClasses = classNames(
     'hero section center-content',
@@ -64,31 +53,25 @@ const Hero = ({
             </h1>
             <div className="mt-32 container-xs">
               <p className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="400">
-                Technology Holding Company
+                Software Development Company
+              </p>
+              <p className="m-0 mb-16 reveal-from-bottom" data-reveal-delay="400">
+                Development House Inc. develops and operates Worldview Trading, a software platform that provides quantitative trading tools,
+                automated strategy execution, market analytics, and AI-assisted analysis for authorized users.
+              </p>
+              <p className="m-0 mb-16 reveal-from-bottom" data-reveal-delay="400">
+                Customers are billed for subscription access and/or metered AI usage within the platform. AI usage charges are generally non-refundable
+                once consumed; subscription refunds are evaluated case-by-case. Subscriptions may be canceled at any time and remain active through
+                the end of the current billing period.
+              </p>
+              <p className="m-0 mb-16 reveal-from-bottom" data-reveal-delay="400">
+                Support: <a className="" style={{ color: '#717D86' }} href="mailto:support@development.house">support@development.house</a>
+              </p>
+              <p className="m-0 mb-16 reveal-from-bottom" data-reveal-delay="400">
+                Worldview Trading is software tooling and analytics and does not provide guaranteed returns, investment management, or financial advisory services.
               </p>
             </div>
           </div>
-          {/* <div className="hero-figure reveal-from-bottom illustration-element-01" data-reveal-value="20px" data-reveal-delay="800">
-            <a
-              data-video="https://player.vimeo.com/video/174002812"
-              href="#0"
-              aria-controls="video-modal"
-              onClick={openModal}
-            >
-              <Image
-                className="has-shadow"
-                src={require('./../../assets/images/video-placeholder.jpg')}
-                alt="Hero"
-                width={896}
-                height={504} />
-            </a>
-          </div>
-          <Modal
-            id="video-modal"
-            show={videoModalActive}
-            handleClose={closeModal}
-            video="https://player.vimeo.com/video/174002812"
-            videoTag="iframe" /> */}
         </div>
       </div>
     </section>

@@ -22,9 +22,6 @@ const FooterNav = ({
           <Link className="bottom-link" to="/">Home</Link>
         </li>
         <li>
-          <Link className="bottom-link" to="/about">About us</Link>
-        </li>
-        <li>
           <Link className="bottom-link" to="/worldview">Worldview Trading</Link>
         </li>
         <li>
